@@ -33,7 +33,7 @@ module.exports = () => {
         short_name: "JATE",
         description: "Text Editor with Offline Features using IndexedDB",
         background_color: "#A51C30",
-        theme_color: "A51C30",
+        theme_color: "#A51C30",
         start_url: "/",
         publicPath: "/",
         icons: [
