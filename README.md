@@ -1,6 +1,10 @@
 # Project Title [ Text-Editor-PWA-Heroku ]
 ![License Badges](https://img.shields.io/badge/LICENSE-MIT-blue)
 
+![Getting Started](./client/src/images/JATE_Min.jpg)
+![Getting Started](./client/src/images/JATE_Offline_Min.jpg)
+
+
 -----
 
 ## Table of Contents
@@ -17,6 +21,12 @@
 ### Description 
 I have been tasked to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. 
 Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+
+Tech Stacks:
+Single-Page Progressive Web Application
+Offline Functionality: Service Worker, Cache Static Assets
+Babel Dependency
+Webpack PWA Manifest Plug-in
 
 -----
 
@@ -99,7 +109,9 @@ MIT
 
 #### GitHub Username: min-hinthar 
 
-#### GitHub URL: github.com/min-hinthar
+#### GitHub URL: https://github.com/min-hinthar/Text-Editor-PWA-Heroku
+
+#### Heroku Deploment Link: https://text-editor-pwa-heroku.herokuapp.com/
 
 #### Email: min@hintharinc.com
 

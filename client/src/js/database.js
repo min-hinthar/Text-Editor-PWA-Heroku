@@ -20,7 +20,8 @@ export const putDb = async (content) => {
   const request = store.put({ jate: content });
   const result = await request;
   console.log('Content has been added to Database', result);
-  console.error('putDb not implemented');
+  if (error) {
+    console.error('putDb not implemented')};
 }
 
 // TODO: Add logic for a method that gets all the content from the database
@@ -31,6 +32,7 @@ export const getDb = async () => {
   const request = store.getAll();
   const result = await request;
   console.log(result);
-  console.error('getDb not implemented');
+  if (error) {
+  console.error('getDb not implemented')};
 }
 initdb();
